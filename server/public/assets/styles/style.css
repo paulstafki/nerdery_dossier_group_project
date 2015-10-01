@@ -1,0 +1,357 @@
+@font-face {
+    font-family: "Stratum 2 Bold";
+    src: url(../fonts/stratum.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Universe Next";
+    src: url(../fonts/universe.ttf)
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: "Stratum 2 Bold", "Arial", "sans-serif"
+}
+
+p {
+    font-family: "Universe Next", "Arial", "sans-serif";
+}
+
+/*
+----------------
+    HTML
+    SIDEBAR
+----------------
+*/
+
+h1.md-title {
+    margin-bottom: 0;
+}
+
+.eventCard h1 {
+    -webkit-text-stroke: 1px black;
+    color: white;
+    font-size: 35px;
+}
+
+.eventCard button {
+    background-color: #8a9b92;
+}
+
+.cardDiv {
+    text-align: center;
+}
+
+md-toolbar img {
+    margin: 0 auto 0 auto;
+}
+
+.md-theme-nerdery, md-sidenav {
+    background-color: #423e34 !important;
+}
+
+.ngviewbackground {
+    background-image: url(../images/background.jpg);
+}
+
+
+html {
+    background: url(../images/background.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.navButton {
+    background-color: #8a9b92;
+    color: #FFFFFF !important;
+    border: 1px solid #8a9b92;
+}
+
+.md-fab {
+    background-color: #423e34 !important;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+md-sidenav, md-sidenav.md-locked-open {
+    width: 220px;
+    min-width: 220px;
+    max-width: 220px;
+}
+/*
+----------------------
+     HOME
+     VIEWPERSON
+----------------------
+*/
+
+.personCards {
+    width: 250px;
+    display: inline-block;
+}
+
+md-card {
+    text-align: center;
+    background-color: #423e34;
+    opacity: 0.75;
+}
+
+md-card img {
+    padding: 15px 15px 0 0;
+}
+
+md-card h2 {
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    color: #d7c500;
+}
+
+md-card h3 {
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    color: #FFFFFF;
+}
+
+.nameh2 {
+    padding-top: 0;
+    margin-top: 0;
+    display: inline;
+}
+
+/*
+---------------
+    SETTINGS
+---------------
+*/
+
+#successIcon {
+    color: green;
+}
+
+#failIcon {
+    color: red;
+}
+
+/*
+---------------
+    VIEW
+---------------
+*/
+
+.viewPersonContainer {
+    background-color: #423e34;
+    opacity: 0.8;
+    box-shadow: 0 1px 1px 2px #302d27;
+    margin-bottom: 12px;
+}
+
+.viewPersonContainer h3, h4, h5, p, li {
+    color: #FFFFFF;
+}
+
+.viewPersonContainer h2, .viewPersonContainer h2:hover {
+    color: #98bcb8;
+}
+
+.viewPersonContainer a {
+    color: #d7c500;
+}
+
+.paddingContainer {
+    padding: 10px 10px 10px 10px;
+}
+
+.contact {
+    margin-left: 10px;
+}
+
+.editable-click {
+    border-bottom: none;
+}
+
+h3.editable-click, h4.editable-click, h5.editable-click, p.editable-click, li.editable-click, h3.editable-click:hover, h4.editable-click:hover, h5.editable-click:hover, p.editable-click:hover, li.editable-click:hover {
+    color: #FFFFFF;
+}
+
+.displayInline {
+    display: inline;
+}
+
+.displayInlineBlock {
+    display: inline-block;
+}
+
+.positionDiv {
+    margin-bottom: 10px;
+}
+
+.sectionLabel {
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.centeredViewButton {
+    background-color: #8a9b92;
+    border: 1px solid #8a9b92;
+    color: #FFFFFF;
+}
+
+.centeredViewButton {
+    color: #FFFFFF;
+    border: 1px solid #ffffff;
+}
+
+.centerAllTheButtons {
+    text-align: center;
+}
+
+.editurl {
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    font-size: 12px;
+}
+
+.topediturl {
+    padding: 0 0 0 0;
+    margin: -14px 0 14px 0;
+    font-size: 12px;
+}
+
+.rightSocialDiv {
+    margin-top: 17px;
+}
+
+.forminputs {
+    background-color: #8a9b92;
+    text-align: left;
+    padding-left: 10px;
+}
+.md-button.md-primary {
+    color: #423E34;
+}
+.forminputs h4 {
+    margin-bottom: 0;
+}
+.forminputs label{
+   color:#000000;
+}
+
+.md-secondary  {
+    margin-top: 30px;
+    background-color:#423e34;
+}
+
+hr {
+    border-color: #605a4c;
+}
+
+.thumb {
+    width: 24px;
+    height: 24px;
+    float: none;
+    position: relative;
+    top: 7px;
+}
+
+form .progress {
+    line-height: 15px;
+}
+
+.progress {
+    display: inline-block;
+    width: 100px;
+    border: 3px groove #CCC;
+}
+
+.progress div {
+    font-size: smaller;
+    background: rgb(63,81,181);
+    width: 0;
+}
+
+.imagePreview {
+    height: 100px;
+    width: 100px;
+}
+
+.rightContactDiv {
+    margin: 15px 0 0 0;
+}
+
+md-content {
+    background-color: transparent;
+}
+
+.datePicker {
+    margin: auto;
+}
+
+.addInfoButton {
+    color: #FFFFFF !important;
+    background-color: #423e34;
+    border: 1px solid #423e34;
+}
+
+.addInfoButton:hover {
+    color: #FFFFFF !important;
+    border: 1px solid #FFFFFF;
+}
+
+h5 {
+    font-size: 16px;
+    margin: 5px 0 0 0;
+}
+
+#dialogButton{
+    background-color: #8a9b92;
+    color: #423e34;
+}
+
+.removeButton {
+    background-color: #f2836b;
+}
+
+.navButton:hover {
+    background-color: #423e34;
+    color: #FFFFFF !important;
+    border: 1px solid #FFFFFF;
+}
+
+#imageInputAddPerson{
+    margin-right: 10px;
+}
+
+#imageUrlViewPerson{
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #FFFFFF;
+
+}
+
+#photoInput{
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+}
+
+#inputTextColor{
+    color: #FFFFFF;
+}
+
+#addPersonImage{
+    margin-right: 20px;
+    margin-bottom: 10px;
+    height: 265px;
+    width:265px;
+}
+
+#imageInput{
+    margin-bottom:10px;
+    border-radius:3px;
+    width:200px;
+}
